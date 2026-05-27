@@ -103,7 +103,7 @@ button[type="submit"]:hover{
 }
 
 button[type="reset"]:hover{
-    background-color: red;
+    background-color: orangered;
     color: white;
 }
 

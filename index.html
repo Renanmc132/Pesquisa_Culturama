@@ -37,10 +37,12 @@
                 <input type="email" name="userEmail" id="email" required placeholder="Ex: culturama@email.com">
                 <br>
                 <label for="phoneNumber">Telefone:</label>
-                <input type="tel" name="userPhoneNumber" required placeholder="Ex: (99) 99999-9999" pattern="[0-9]{11}" id="phoneNumber">
+                <input type="tel" name="userPhoneNumber" required placeholder="Ex: (99) 99999-9999" pattern="[0-9]{11}" id="phoneNumber" aria-describedby="phoneNumberHelp">
+                <small id="phoneNumberHelp">Preencha com 11 dígitos sem hífen ou espaço</small>
                 <br>
                 <label for="image">Upload de Foto:</label>
-                <input type="file" accept="image/*" name="userImage" id="image">
+                <input type="file" accept="image/*" name="userImage" id="image" aria-describedby="imageHelp">
+                <small id="imageHelp">Envie uma foto no formato PNG ou JPEG</small>
                 <br>
                 
             </fieldset>
